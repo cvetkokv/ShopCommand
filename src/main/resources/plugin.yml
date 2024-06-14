@@ -1,0 +1,9 @@
+name: ShopCommand
+version: '${project.version}'
+main: org.minecraft.plugin.shopcommand.ShopCommand
+api-version: '1.20'
+
+commands:
+  shop:
+    description: Returns the URL of the store
+    usage: /shop
